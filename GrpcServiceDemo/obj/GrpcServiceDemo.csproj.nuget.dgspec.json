@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pnpham\\Source\\Repos\\GrpcServiceDemo\\GrpcServiceDemo\\GrpcServiceDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pnpham\\Source\\Repos\\GrpcServiceDemo\\GrpcServiceDemo\\GrpcServiceDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pnpham\\Source\\Repos\\GrpcServiceDemo\\GrpcServiceDemo\\GrpcServiceDemo.csproj",
+        "projectName": "GrpcServiceDemo",
+        "projectPath": "C:\\Users\\pnpham\\Source\\Repos\\GrpcServiceDemo\\GrpcServiceDemo\\GrpcServiceDemo.csproj",
+        "packagesPath": "C:\\Users\\pnpham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pnpham\\Source\\Repos\\GrpcServiceDemo\\GrpcServiceDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pnpham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://artifactory.wrpwi.root.local:8081/artifactory/api/nuget/nuget": {},
+          "http://artifactory.wrpwi.root.local:8081/artifactory/api/nuget/nuget-renlearn": {},
+          "http://artifactory.wrpwi.root.local:8081/artifactory/api/nuget/tech-services": {},
+          "http://teamcity.renlearn.com/guestAuth/app/nuget/v1/FeedService.svc/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

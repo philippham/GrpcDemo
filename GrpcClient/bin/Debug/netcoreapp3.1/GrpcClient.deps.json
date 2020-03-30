@@ -1,0 +1,318 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GrpcClient/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.9.1",
+          "Grpc.Net.ClientFactory": "2.23.2",
+          "Grpc.Tools": "2.23.0"
+        },
+        "runtime": {
+          "GrpcClient.dll": {}
+        }
+      },
+      "Google.Protobuf/3.9.1": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.9.1.0",
+            "fileVersion": "3.9.1.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.23.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.23.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Client/2.23.2": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.23.0",
+          "Grpc.Net.Common": "2.23.2",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "System.Diagnostics.DiagnosticSource": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Client.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.23.2.0"
+          }
+        }
+      },
+      "Grpc.Net.ClientFactory/2.23.2": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.23.0",
+          "Grpc.Net.Client": "2.23.2",
+          "Microsoft.Extensions.Http": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.ClientFactory.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.23.2.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.23.2": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.23.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.23.2.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.23.0": {},
+      "Microsoft.Extensions.Configuration/2.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/2.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/2.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/2.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging": "2.1.1",
+          "Microsoft.Extensions.Options": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/2.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Binder": "2.1.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Logging.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Options": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/2.1.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Primitives": "2.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/2.1.1": {
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.5.1": {},
+      "System.Memory/4.5.3": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.1": {}
+    }
+  },
+  "libraries": {
+    "GrpcClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MV9xJkpm2Jbe30XGwyPH4Xn0LwutWn6UEoLo2djfG2ouK2cBVrlcP4sJPfLrRVFzRutmGHoWUHdHFsq1qiRV5A==",
+      "path": "google.protobuf/3.9.1",
+      "hashPath": "google.protobuf.3.9.1.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PBu5HmZqkg5t13HA3ZKZi3tjHQI7MSpxPnL1+5c9ewgGT6Eg0eXrK+Klf/FPXzl4sz15aFQv7gSjvd8h07PK3Q==",
+      "path": "grpc.core.api/2.23.0",
+      "hashPath": "grpc.core.api.2.23.0.nupkg.sha512"
+    },
+    "Grpc.Net.Client/2.23.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L53zfmfPrBKcIOu2Ljc1wTxYQwcNqDVxRzyfXXd6B/LaTuk2bcVmnJG0wuZjeUECJuzJ85HeKeeWEtoIgec8xQ==",
+      "path": "grpc.net.client/2.23.2",
+      "hashPath": "grpc.net.client.2.23.2.nupkg.sha512"
+    },
+    "Grpc.Net.ClientFactory/2.23.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1V1GkdqBpAR7lH+PrQc+wY0Qt80b4sdPjdgLqCNeSiiJmARDrhH71jZQiqxCPXtqbigewWlt22arLv6sUqZ/PQ==",
+      "path": "grpc.net.clientfactory/2.23.2",
+      "hashPath": "grpc.net.clientfactory.2.23.2.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.23.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3CRpqLzQEcZ+t/jBiPiOnZvtCwMDqb7Ea8tyaSXakuK3xudZgtqAWg1rqPToUfOQyBfOMm4+1EF2dJvngFLQIg==",
+      "path": "grpc.net.common/2.23.2",
+      "hashPath": "grpc.net.common.2.23.2.nupkg.sha512"
+    },
+    "Grpc.Tools/2.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nddxpcbrypxzP2ZHY50FuiTBVMdDPnZ6AtsrOn4JXOVLtwCg8UVynOFr1yBkCj9Ki5lTsfK1toc8glhO3OriVg==",
+      "path": "grpc.tools/2.23.0",
+      "hashPath": "grpc.tools.2.23.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7eM+3i9Th1eorWxgfjdAgNUQAQ5eHHFswRmAsy/acsX5tumlBc206ggiVslWYoVGBJcqM+W4Ll5j8wtn/T8ExQ==",
+      "path": "microsoft.extensions.configuration/2.1.1",
+      "hashPath": "microsoft.extensions.configuration.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7mrMA/bwMPDx339RWoOqQ/GLUDVdeVEyRWag6yLOwGrsZ6EpHSaLig+dIgH1tFWzOrqtUWOT5t0R6ZOd2AH/gg==",
+      "path": "microsoft.extensions.configuration.abstractions/2.1.1",
+      "hashPath": "microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+vDAcyObAU3mw7Lt9ht8pytlXKlqZ4pAXG5REWJIXkRtdf5juCuAepAEcCRbHz5o9LesS+iuFNifTyHmFdxrVQ==",
+      "path": "microsoft.extensions.configuration.binder/2.1.1",
+      "hashPath": "microsoft.extensions.configuration.binder.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Am2UZYV6nuBxIahauxX1JQFOjNq4nz9O+4DdTdrQfPZDryy6gr69EQDFxhpNrEWa1vU0q8VgeZc3rZCcoUDlrw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2fKYUplR/pCXZj0JMsCLThbjv2i8ctdUangVcQZvzUfAQRhVb8BHUdpipV5LKlQViSWqEn0vSCeqKFdqbjIsjA==",
+      "path": "microsoft.extensions.http/2.1.1",
+      "hashPath": "microsoft.extensions.http.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HBmIhyITdC2tGX9DCUNjNM21F3Ic7xs7P3K2iVINH4RrEDmN7YI4n0XZZpzmztTvDHLf/5PhCaznXHu9TlabBQ==",
+      "path": "microsoft.extensions.logging/2.1.1",
+      "hashPath": "microsoft.extensions.logging.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-frAxEUpwr5+f6C2Ek1yt7es72anGDgDJFNdBzw1SufhUy4KrvylLJJTkZgOxTeyixLXiyzlZHfmQ5/ebOjJwkQ==",
+      "path": "microsoft.extensions.logging.abstractions/2.1.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j0zOfTt1Qm+JDW2m+6Q/aj1m4C8+onudUu4ls/fN69VxruZkMWmX1bPKkbkYIPNNxJsf4k7FOkVq5o1vEFq9pQ==",
+      "path": "microsoft.extensions.options/2.1.1",
+      "hashPath": "microsoft.extensions.options.2.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TCTmtM3t1eeSi+vZXILqT9vNBooOeuB9VChERfeP+XPi7BCJV68eD1EJDC/LpXkAb+3ZK2Fd8no7U3kHl6ozkQ==",
+      "path": "microsoft.extensions.primitives/2.1.1",
+      "hashPath": "microsoft.extensions.primitives.2.1.1.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zCno/m44ymWhgLFh7tELDG9587q0l/EynPM0m4KgLaWQbz/TEKvNRX2YT5ip2qXW/uayifQ2ZqbnErsKJ4lYrQ==",
+      "path": "system.diagnostics.diagnosticsource/4.5.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zh8t8oqolRaFa9vmOZfdQm/qKejdqz0J9kr7o2Fu0vPeoH3BL1EOXipKWwkWtLT1JPzjByrF19fGuFlNbmPpiw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.1",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512"
+    }
+  }
+}
